@@ -29,14 +29,22 @@
                                     <segue destination="wqw-UE-oIR" kind="presentation" id="wef-i7-atM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Callbacks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7I-Qj-JUo">
+                                <rect key="frame" x="143.5" y="430" width="127" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qy0-Cn-YLQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qy0-Cn-YLQ" firstAttribute="trailing" secondItem="f5q-VM-Mgt" secondAttribute="trailing" constant="20" id="JrQ-dn-fyP"/>
+                            <constraint firstItem="H7I-Qj-JUo" firstAttribute="centerX" secondItem="BJv-nM-yLF" secondAttribute="centerX" id="NQ0-E7-kP5"/>
                             <constraint firstItem="f5q-VM-Mgt" firstAttribute="top" secondItem="qy0-Cn-YLQ" secondAttribute="top" id="RWM-5I-DAW"/>
                             <constraint firstItem="J1w-ho-CVO" firstAttribute="top" secondItem="qy0-Cn-YLQ" secondAttribute="top" id="Srx-QT-vDn"/>
                             <constraint firstItem="J1w-ho-CVO" firstAttribute="leading" secondItem="qy0-Cn-YLQ" secondAttribute="leading" constant="20" id="aaJ-09-2hQ"/>
+                            <constraint firstItem="H7I-Qj-JUo" firstAttribute="centerY" secondItem="BJv-nM-yLF" secondAttribute="centerY" id="foF-Vk-SQ8"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="fC6-wB-i0K"/>
@@ -69,14 +77,22 @@
                                     <segue destination="wqw-UE-oIR" kind="presentation" identifier="toDatePopupViewControllerSegue" id="3XP-eV-7gx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NotificationCenter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i36-6e-oQh">
+                                <rect key="frame" x="88.5" y="430" width="237" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vSD-ry-Fpm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="i36-6e-oQh" firstAttribute="centerX" secondItem="LPZ-wN-wN1" secondAttribute="centerX" id="GUX-Pb-57y"/>
                             <constraint firstItem="l2i-fr-M1m" firstAttribute="leading" secondItem="vSD-ry-Fpm" secondAttribute="leading" constant="20" id="RaZ-EP-5hk"/>
                             <constraint firstItem="l2i-fr-M1m" firstAttribute="top" secondItem="vSD-ry-Fpm" secondAttribute="top" id="fUV-SS-BEl"/>
                             <constraint firstItem="Tgx-k3-i3I" firstAttribute="top" secondItem="vSD-ry-Fpm" secondAttribute="top" id="wRh-MA-Lsy"/>
                             <constraint firstItem="vSD-ry-Fpm" firstAttribute="trailing" secondItem="Tgx-k3-i3I" secondAttribute="trailing" constant="20" id="yMF-ry-Gzn"/>
+                            <constraint firstItem="i36-6e-oQh" firstAttribute="centerY" secondItem="LPZ-wN-wN1" secondAttribute="centerY" id="z78-Bs-8ca"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="ItF-mE-KhY"/>
@@ -86,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x0T-gX-DGw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="843" y="143"/>
+            <point key="canvasLocation" x="842.02898550724649" y="142.63392857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="KZf-xy-bPb">
